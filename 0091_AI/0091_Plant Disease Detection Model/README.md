@@ -7,10 +7,7 @@ This AI model is designed to **detect and classify plant diseases** from leaf im
 ## 🔗 Resources
 
 - 📘 **Model Code (Google Colab)**: [Plant_Disease_Detection_Model.ipynb](https://colab.research.google.com/drive/16L57k01-A2Yb9BXptLWVVADyJTEPFxsO)
-- 🗂️ **Training Dataset**: [Train Dataset](https://drive.google.com/drive/folders/1-E5k0tyknrLR2YA5NjVen2bPaKRO0bff)
-- 🧪 **Validation Dataset**: [Validation Dataset](https://drive.google.com/drive/folders/1-22a7nF5cGcepYHAUilaboVz07lB7ESL)
-- 📊 **Test Dataset**: [Test Dataset](https://drive.google.com/drive/folders/1-1qkiUXrCriedu6hRzZkcXAci9kr7MOR)
-
+- 🗂️ **Dataset**: [Link Dataset](https://data.mendeley.com/datasets/tywbtsjrjv/1)
 ---
 
 ## 📁 Project Folder

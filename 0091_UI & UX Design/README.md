@@ -7,4 +7,4 @@
 
 ## 📱 Mobile Slide Preview
 
-<img src="https://github.com/GeorgeHanyMilad/PlantyCare-App/blob/master/47_UI%20&%20UX%20Design/PlantyCare%20App.jpg?raw=true" alt="Mobile Slide" width="300"/>
+<img src="https://github.com/GeorgeHanyMilad/PlantyCare-App/blob/master/0091_UI%20&%20UX%20Design/PlantyCare%20App.jpg?raw=true" alt="Mobile Slide" width="300"/>
