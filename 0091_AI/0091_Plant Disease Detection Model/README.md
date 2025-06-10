@@ -13,8 +13,8 @@ This AI model is designed to **detect and classify plant diseases** from leaf im
 ## 📁 Project Folder
 
 You can access the **entire project**, including the code and datasets, from the following Google Drive folder:
-🔗 [Code - Colab Notebook](https://colab.research.google.com/drive/16L57k01-A2Yb9BXptLWVVADyJTEPFxsO)
-🔗 [Complete Project Folder](https://drive.google.com/drive/folders/1yqDGr3uoXPS3XCkEYjq34Bqc-Vkra7V9?usp=drive_link)
+- 🔗 [Code - Colab Notebook](https://colab.research.google.com/drive/16L57k01-A2Yb9BXptLWVVADyJTEPFxsO)
+- 🔗 [Complete Project Folder](https://drive.google.com/drive/folders/1yqDGr3uoXPS3XCkEYjq34Bqc-Vkra7V9?usp=drive_link)
 
 ---
 
