@@ -1,0 +1,1075 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/about_us_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/background"
+    tools:context=".ui.profile.AboutUs">
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline32"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_percent="0.06" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline39"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintGuide_percent="0.05" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline40"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintGuide_percent="0.95" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline41"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_percent="0.12" />
+
+    <ImageButton
+        android:id="@+id/btn_back2"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:background="?attr/selectableItemBackground"
+        android:onClick="backButton"
+        android:padding="6dp"
+        android:scaleType="centerCrop"
+        android:src="@drawable/left"
+        app:backgroundTint="@android:color/black"
+        app:layout_constraintBottom_toTopOf="@+id/guideline41"
+        app:layout_constraintDimensionRatio="1:1"
+        app:layout_constraintEnd_toStartOf="@+id/guideline42"
+        app:layout_constraintStart_toStartOf="@+id/guideline39"
+        app:layout_constraintTop_toTopOf="@+id/guideline32" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline42"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintGuide_percent="0.2" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline43"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintGuide_percent="0.8" />
+
+    <TextView
+        android:id="@+id/aboutUsTitle"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="10dp"
+        android:layout_marginEnd="10dp"
+        android:ellipsize="marquee"
+        android:gravity="center"
+        android:letterSpacing="0.02"
+        android:maxLines="1"
+        android:text="About Us"
+        android:textColor="@color/black"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/guideline41"
+        app:layout_constraintEnd_toStartOf="@+id/guideline43"
+        app:layout_constraintStart_toStartOf="@+id/guideline42"
+        app:layout_constraintTop_toTopOf="@+id/guideline32" />
+
+    <ScrollView
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginTop="10dp"
+        android:background="@color/background"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/guideline41">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:orientation="vertical">
+
+            <ImageView
+                android:id="@+id/aboutUsPhoto"
+                android:layout_width="250dp"
+                android:layout_height="250dp"
+                android:visibility="invisible"
+                android:layout_gravity="center"
+                android:src="@drawable/about_us" />
+
+            <LinearLayout
+                android:id="@+id/aboutUsWhoAreWeTitle"
+                android:layout_width="wrap_content"
+                android:visibility="invisible"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_margin="16dp"
+                android:background="@drawable/rounded_display_background"
+                android:gravity="center"
+                android:orientation="horizontal"
+                android:paddingStart="40dp"
+                android:paddingTop="12dp"
+                android:paddingEnd="40dp"
+                android:paddingBottom="12dp">
+
+                <ImageView
+                    android:layout_width="24dp"
+                    android:layout_height="24dp"
+                    android:layout_marginEnd="8dp"
+                    android:scaleType="centerInside"
+                    android:src="@drawable/group"
+                    app:tint="@color/colorPrimary" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Who are we?"
+                    android:textColor="@color/colorPrimary"
+                    android:textSize="18sp"
+                    android:textStyle="bold" />
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/aboutUsWhoAreWeDetails"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="16dp"
+                android:visibility="invisible"
+                android:background="@drawable/rounded_display_background"
+                android:justificationMode="inter_word"
+                android:lineSpacingExtra="5dp"
+                android:padding="20dp"
+                android:text="Planty Care is an AI-powered application designed to help farmers and agricultural enthusiasts identify diseases in fruits and vegetables. Our goal is to offer practical solutions that improve crop quality and reduce agricultural losses."
+                android:textColor="@color/black"
+                android:textSize="14sp" />
+
+            <LinearLayout
+                android:id="@+id/aboutUsVisionAndMissionTitle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_margin="16dp"
+                android:visibility="invisible"
+                android:background="@drawable/rounded_display_background"
+                android:gravity="center"
+                android:orientation="horizontal"
+                android:paddingStart="24dp"
+                android:paddingTop="12dp"
+                android:paddingEnd="24dp"
+                android:paddingBottom="12dp">
+
+                <ImageView
+                    android:layout_width="24dp"
+                    android:layout_height="24dp"
+                    android:layout_marginEnd="8dp"
+                    android:scaleType="centerInside"
+                    android:src="@drawable/vision"
+                    app:tint="@color/colorPrimary" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Vision @ Mission"
+                    android:textColor="@color/colorPrimary"
+                    android:textSize="18sp"
+                    android:textStyle="bold" />
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/aboutUsVisionAndMissionDetails"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="16dp"
+                android:visibility="invisible"
+                android:background="@drawable/rounded_display_background"
+                android:justificationMode="inter_word"
+                android:lineSpacingExtra="5dp"
+                android:padding="20dp"
+                android:text="@string/our_vision"
+                android:textColor="@color/black"
+                android:textSize="14sp" />
+
+            <LinearLayout
+                android:id="@+id/aboutUsWhoAreWeTitle2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_margin="16dp"
+                android:background="@drawable/rounded_display_background"
+                android:gravity="center"
+                android:visibility="invisible"
+                android:orientation="horizontal"
+                android:paddingStart="40dp"
+                android:paddingTop="12dp"
+                android:paddingEnd="40dp"
+                android:paddingBottom="12dp">
+
+                <ImageView
+                    android:layout_width="24dp"
+                    android:layout_height="24dp"
+                    android:layout_marginEnd="8dp"
+                    android:scaleType="centerInside"
+                    android:src="@drawable/about_us" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Who are we?"
+                    android:textColor="@color/colorPrimary"
+                    android:textSize="18sp"
+                    android:textStyle="bold" />
+            </LinearLayout>
+
+
+            <HorizontalScrollView
+                android:id="@+id/aboutUsSection"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="5dp"
+                tools:ignore="RtlSymmetry">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="16dp"
+                    android:layout_marginBottom="70dp"
+                    android:background="@color/background"
+                    android:gravity="center_horizontal"
+                    android:orientation="horizontal">
+
+                    <androidx.cardview.widget.CardView
+                        android:id="@+id/aboutUsCardOne"
+                        android:layout_width="250dp"
+                        android:layout_height="match_parent"
+                        android:layout_marginStart="5dp"
+                        android:layout_marginEnd="15dp"
+                        android:visibility="invisible"
+                        android:layout_marginBottom="15dp"
+                        android:backgroundTint="@color/colorAccent"
+                        app:cardCornerRadius="25dp"
+                        app:cardElevation="5dp">
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginBottom="16dp"
+                            android:orientation="vertical"
+                            android:padding="16dp">
+
+                            <de.hdodenhof.circleimageview.CircleImageView
+                                android:id="@+id/profile_image"
+                                android:layout_width="120dp"
+                                android:layout_height="120dp"
+                                android:layout_gravity="center_horizontal"
+                                android:layout_marginBottom="16dp"
+                                android:scaleType="centerCrop"
+                                android:src="@drawable/bishoy" />
+
+                            <TextView
+                                android:id="@+id/card1_title"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="center_horizontal"
+                                android:layout_marginBottom="16dp"
+                                android:ellipsize="marquee"
+                                android:gravity="center"
+                                android:maxLines="2"
+                                android:paddingStart="10dp"
+                                android:paddingEnd="10dp"
+                                android:text="Bishoy Ezzat"
+                                android:textColor="@color/black"
+                                android:textIsSelectable="true"
+                                android:textSize="20sp"
+                                android:textStyle="bold" />
+
+                            <TextView
+                                android:id="@+id/card12_title"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="center_horizontal"
+                                android:layout_marginBottom="16dp"
+                                android:fontFamily="sans-serif-medium"
+                                android:gravity="center"
+                                android:maxLines="2"
+                                android:paddingStart="10dp"
+                                android:paddingEnd="10dp"
+                                android:text="Full Stack Developer"
+                                android:textColor="@color/colorPrimary"
+                                android:textIsSelectable="true"
+                                android:textSize="16sp"
+                                android:textStyle="bold" />
+
+                            <TextView
+                                android:id="@+id/card11_content"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_marginBottom="40dp"
+                                android:fontFamily="sans-serif"
+                                android:justificationMode="inter_word"
+                                android:lineSpacingExtra="4dp"
+                                android:text="Built the Android app using Java with ready-made UI designs, set up Firebase backend, and integrated APIs for three ML models."
+                                android:textColor="@color/black"
+                                android:textIsSelectable="true"
+                                android:textSize="14sp" />
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="50dp"
+                            android:layout_gravity="bottom|center_horizontal"
+                            android:background="@color/colorPrimary"
+                            android:gravity="center">
+
+                            <ImageView
+                                android:layout_width="30dp"
+                                android:layout_height="30dp"
+                                android:layout_margin="8dp"
+                                android:layout_weight="1"
+                                android:onClick="bishoFacebook"
+                                android:background="?attr/selectableItemBackgroundBorderless"
+                                android:clickable="true"
+                                android:focusable="true"
+                                android:src="@drawable/facbook_white"
+                                app:tint="#fff" />
+
+                            <ImageView
+                                android:layout_width="30dp"
+                                android:layout_height="50dp"
+                                android:layout_margin="8dp"
+                                android:layout_weight="1"
+                                android:background="?attr/selectableItemBackgroundBorderless"
+                                android:clickable="true"
+                                android:focusable="true"
+                                android:src="@drawable/linkedin_white"
+                                android:onClick="bishoLinkedIn"
+                                app:tint="#fff" />
+
+                            <ImageView
+                                android:layout_width="30dp"
+                                android:layout_height="55dp"
+                                android:layout_margin="8dp"
+                                android:scaleType="fitXY"
+                                android:layout_weight="1"
+                                android:background="?attr/selectableItemBackgroundBorderless"
+                                android:clickable="true"
+                                android:focusable="true"
+                                android:onClick="bishoInstagram"
+                                android:src="@drawable/instagram_white"
+                                app:tint="#fff" />
+                        </LinearLayout>
+                    </androidx.cardview.widget.CardView>
+
+                    <androidx.cardview.widget.CardView
+                        android:id="@+id/aboutUsCardTwo"
+                        android:layout_width="250dp"
+                        android:layout_height="match_parent"
+                        android:layout_marginStart="15dp"
+                        android:layout_marginEnd="16dp"
+                        android:visibility="invisible"
+                        android:layout_marginBottom="16dp"
+                        android:backgroundTint="@color/colorAccent"
+                        app:cardCornerRadius="25dp"
+                        app:cardElevation="5dp">
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginBottom="16dp"
+                            android:orientation="vertical"
+                            android:padding="16dp">
+
+                            <de.hdodenhof.circleimageview.CircleImageView
+                                android:id="@+id/profile_image2"
+                                android:layout_width="120dp"
+                                android:layout_height="120dp"
+                                android:layout_gravity="center_horizontal"
+                                android:layout_marginBottom="16dp"
+                                android:scaleType="centerCrop"
+                                android:src="@drawable/george_hany" />
+
+                            <TextView
+                                android:id="@+id/card1_title2"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="center_horizontal"
+                                android:layout_marginBottom="16dp"
+                                android:ellipsize="marquee"
+                                android:gravity="center"
+                                android:maxLines="2"
+                                android:paddingStart="10dp"
+                                android:paddingEnd="10dp"
+                                android:text="George Hany"
+                                android:textColor="@color/black"
+                                android:textIsSelectable="true"
+                                android:textSize="20sp"
+                                android:textStyle="bold" />
+
+                            <TextView
+                                android:id="@+id/card12_title2"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="center_horizontal"
+                                android:layout_marginBottom="16dp"
+                                android:fontFamily="sans-serif-medium"
+                                android:gravity="center"
+                                android:maxLines="2"
+                                android:paddingStart="10dp"
+                                android:paddingEnd="10dp"
+                                android:text="Data Analyst"
+                                android:textColor="@color/colorPrimary"
+                                android:textIsSelectable="true"
+                                android:textSize="16sp"
+                                android:textStyle="bold" />
+
+                            <TextView
+                                android:id="@+id/card11_content2"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_marginBottom="40dp"
+                                android:fontFamily="sans-serif"
+                                android:justificationMode="inter_word"
+                                android:lineSpacingExtra="4dp"
+                                android:text="I handled UI/UX design and developed dashboards and visualizations for all project models."
+                                android:textColor="@color/black"
+                                android:textIsSelectable="true"
+                                android:textSize="14sp" />
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="50dp"
+                            android:layout_gravity="bottom|center_horizontal"
+                            android:background="@color/colorPrimary"
+                            android:gravity="center">
+
+                            <ImageView
+                                android:layout_width="30dp"
+                                android:layout_height="30dp"
+                                android:layout_margin="8dp"
+                                android:layout_weight="1"
+                                android:onClick="georgeFacebook"
+                                android:background="?attr/selectableItemBackgroundBorderless"
+                                android:clickable="true"
+                                android:focusable="true"                                android:src="@drawable/facbook_white"
+                                app:tint="#fff" />
+
+                            <ImageView
+                                android:layout_width="30dp"
+                                android:layout_height="50dp"
+                                android:layout_margin="8dp"
+                                android:layout_weight="1"
+                                android:onClick="georgeLinkedIn"
+                                android:background="?attr/selectableItemBackgroundBorderless"
+                                android:clickable="true"
+                                android:focusable="true"
+                                android:src="@drawable/linkedin_white"
+                                app:tint="#fff" />
+
+                            <ImageView
+                                android:layout_width="30dp"
+                                android:layout_height="50dp"
+                                android:layout_margin="8dp"
+                                android:layout_weight="1"
+                                android:background="?attr/selectableItemBackgroundBorderless"
+                                android:clickable="true"
+                                android:focusable="true"
+                                android:onClick="georgeInstagram"
+                                android:src="@drawable/instagram_white"
+                                app:tint="#fff" />
+                        </LinearLayout>
+                    </androidx.cardview.widget.CardView>
+
+                    <androidx.cardview.widget.CardView
+                        android:id="@+id/aboutUsCardThree"
+                        android:layout_width="250dp"
+                        android:layout_height="match_parent"
+                        android:layout_marginStart="15dp"
+                        android:layout_marginEnd="16dp"
+                        android:visibility="invisible"
+                        android:layout_marginBottom="16dp"
+                        android:backgroundTint="@color/colorAccent"
+                        app:cardCornerRadius="25dp"
+                        app:cardElevation="5dp">
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginBottom="16dp"
+                            android:orientation="vertical"
+                            android:padding="16dp">
+
+                            <de.hdodenhof.circleimageview.CircleImageView
+                                android:id="@+id/profile_image4"
+                                android:layout_width="120dp"
+                                android:layout_height="120dp"
+                                android:layout_gravity="center_horizontal"
+                                android:layout_marginBottom="16dp"
+                                android:scaleType="centerCrop"
+                                android:src="@drawable/eslam" />
+
+                            <TextView
+                                android:id="@+id/card1_title4"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="center_horizontal"
+                                android:layout_marginBottom="16dp"
+                                android:ellipsize="marquee"
+                                android:gravity="center"
+                                android:maxLines="2"
+                                android:paddingStart="10dp"
+                                android:paddingEnd="10dp"
+                                android:text="Eslam Aymen"
+                                android:textColor="@color/black"
+                                android:textIsSelectable="true"
+                                android:textSize="20sp"
+                                android:textStyle="bold" />
+
+                            <TextView
+                                android:id="@+id/card12_title4"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="center_horizontal"
+                                android:layout_marginBottom="16dp"
+                                android:fontFamily="sans-serif-medium"
+                                android:gravity="center"
+                                android:maxLines="2"
+                                android:paddingStart="10dp"
+                                android:paddingEnd="10dp"
+                                android:text="AI Engineer"
+                                android:textColor="@color/colorPrimary"
+                                android:textIsSelectable="true"
+                                android:textSize="16sp"
+                                android:textStyle="bold" />
+
+                            <TextView
+                                android:id="@+id/card11_content4"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_marginBottom="50dp"
+                                android:fontFamily="sans-serif"
+                                android:justificationMode="inter_word"
+                                android:lineSpacingExtra="4dp"
+                                android:text="Trained AI models for plant disease detection and crop prediction. handled full data pipeline."
+                                android:textColor="@color/black"
+                                android:textIsSelectable="true"
+                                android:textSize="14sp" />
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="50dp"
+                            android:layout_gravity="bottom|center_horizontal"
+                            android:background="@color/colorPrimary"
+                            android:gravity="center">
+
+                            <ImageView
+                                android:layout_width="30dp"
+                                android:layout_height="30dp"
+                                android:layout_margin="8dp"
+                                android:layout_weight="1"
+                                android:onClick="eslamFacebook"
+                                android:background="?attr/selectableItemBackgroundBorderless"
+                                android:clickable="true"
+                                android:focusable="true"
+                                android:src="@drawable/facbook_white"
+                                app:tint="#fff" />
+
+                            <ImageView
+                                android:layout_width="30dp"
+                                android:layout_height="50dp"
+                                android:layout_margin="8dp"
+                                android:layout_weight="1"
+                                android:background="?attr/selectableItemBackgroundBorderless"
+                                android:clickable="true"
+                                android:focusable="true"
+                                android:onClick="eslamLinkedIn"
+                                android:src="@drawable/linkedin_white"
+                                app:tint="#fff" />
+
+                            <ImageView
+                                android:layout_width="30dp"
+                                android:layout_height="50dp"
+                                android:layout_margin="8dp"
+                                android:layout_weight="1"
+                                android:background="?attr/selectableItemBackgroundBorderless"
+                                android:clickable="true"
+                                android:focusable="true"
+                                android:onClick="eslamInstagram"
+                                android:src="@drawable/instagram_white"
+                                app:tint="#fff" />
+                        </LinearLayout>
+                    </androidx.cardview.widget.CardView>
+
+                    <androidx.cardview.widget.CardView
+                        android:id="@+id/aboutUsCardFour"
+                        android:layout_width="250dp"
+                        android:layout_height="match_parent"
+                        android:layout_marginStart="15dp"
+                        android:layout_marginEnd="16dp"
+                        android:visibility="invisible"
+                        android:layout_marginBottom="16dp"
+                        android:backgroundTint="@color/colorAccent"
+                        app:cardCornerRadius="25dp"
+                        app:cardElevation="5dp">
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginBottom="16dp"
+                            android:orientation="vertical"
+                            android:padding="16dp">
+
+                            <de.hdodenhof.circleimageview.CircleImageView
+                                android:layout_width="120dp"
+                                android:layout_height="120dp"
+                                android:layout_gravity="center_horizontal"
+                                android:layout_marginBottom="16dp"
+                                android:scaleType="centerCrop"
+                                android:src="@drawable/mariam" />
+
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="center_horizontal"
+                                android:layout_marginBottom="16dp"
+                                android:ellipsize="marquee"
+                                android:gravity="center"
+                                android:maxLines="2"
+                                android:paddingStart="10dp"
+                                android:paddingEnd="10dp"
+                                android:text="Mariam Hany"
+                                android:textColor="@color/black"
+                                android:textIsSelectable="true"
+                                android:textSize="20sp"
+                                android:textStyle="bold" />
+
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="center_horizontal"
+                                android:layout_marginBottom="16dp"
+                                android:fontFamily="sans-serif-medium"
+                                android:gravity="center"
+                                android:maxLines="2"
+                                android:paddingStart="10dp"
+                                android:paddingEnd="10dp"
+                                android:text="AI Engineer"
+                                android:textColor="@color/colorPrimary"
+                                android:textIsSelectable="true"
+                                android:textSize="16sp"
+                                android:textStyle="bold" />
+
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_marginBottom="50dp"
+                                android:fontFamily="sans-serif"
+                                android:justificationMode="inter_word"
+                                android:lineSpacingExtra="4dp"
+                                android:text="I contributed to building the CNN model, developed the ML model for fertilizer recommendation."
+                                android:textColor="@color/black"
+                                android:textIsSelectable="true"
+                                android:textSize="14sp" />
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="50dp"
+                            android:layout_gravity="bottom|center_horizontal"
+                            android:background="@color/colorPrimary"
+                            android:gravity="center">
+
+                            <ImageView
+                                android:layout_width="30dp"
+                                android:layout_height="30dp"
+                                android:layout_margin="8dp"
+                                android:layout_weight="1"
+                                android:background="?attr/selectableItemBackgroundBorderless"
+                                android:clickable="true"
+                                android:focusable="true"
+                                android:src="@drawable/facbook_white"
+                                app:tint="#fff" />
+
+                            <ImageView
+                                android:layout_width="30dp"
+                                android:layout_height="50dp"
+                                android:layout_margin="8dp"
+                                android:layout_weight="1"
+                                android:background="?attr/selectableItemBackgroundBorderless"
+                                android:clickable="true"
+                                android:onClick="mariamLikedin"
+                                android:focusable="true"
+                                android:src="@drawable/linkedin_white"
+                                app:tint="#fff" />
+
+                            <ImageView
+                                android:layout_width="30dp"
+                                android:layout_height="50dp"
+                                android:layout_margin="8dp"
+                                android:layout_weight="1"
+                                android:background="?attr/selectableItemBackgroundBorderless"
+                                android:clickable="true"
+                                android:focusable="true"
+                                android:src="@drawable/instagram_white"
+                                app:tint="#fff" />
+                        </LinearLayout>
+                    </androidx.cardview.widget.CardView>
+
+                    <androidx.cardview.widget.CardView
+                        android:id="@+id/aboutUsCardSix"
+                        android:layout_width="250dp"
+                        android:visibility="invisible"
+                        android:layout_height="match_parent"
+                        android:layout_marginStart="15dp"
+                        android:layout_marginEnd="16dp"
+                        android:layout_marginBottom="16dp"
+                        android:backgroundTint="@color/colorAccent"
+                        app:cardCornerRadius="25dp"
+                        app:cardElevation="5dp">
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginBottom="16dp"
+                            android:orientation="vertical"
+                            android:padding="16dp">
+
+                            <de.hdodenhof.circleimageview.CircleImageView
+                                android:layout_width="120dp"
+                                android:layout_height="120dp"
+                                android:layout_gravity="center_horizontal"
+                                android:layout_marginBottom="16dp"
+                                android:scaleType="centerCrop"
+                                android:src="@drawable/hager" />
+
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="center_horizontal"
+                                android:layout_marginBottom="16dp"
+                                android:ellipsize="marquee"
+                                android:gravity="center"
+                                android:maxLines="2"
+                                android:paddingStart="10dp"
+                                android:paddingEnd="10dp"
+                                android:text="Hager Abdelkader"
+                                android:textColor="@color/black"
+                                android:textIsSelectable="true"
+                                android:textSize="20sp"
+                                android:textStyle="bold" />
+
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="center_horizontal"
+                                android:layout_marginBottom="16dp"
+                                android:fontFamily="sans-serif-medium"
+                                android:gravity="center"
+                                android:maxLines="2"
+                                android:paddingStart="10dp"
+                                android:paddingEnd="10dp"
+                                android:text="AI Engineer"
+                                android:textColor="@color/colorPrimary"
+                                android:textIsSelectable="true"
+                                android:textSize="16sp"
+                                android:textStyle="bold" />
+
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_marginBottom="50dp"
+                                android:fontFamily="sans-serif"
+                                android:justificationMode="inter_word"
+                                android:lineSpacingExtra="4dp"
+                                android:text="Built a Flask API for plant disease detection, crop prediction, and fertilizer recommendation system."
+                                android:textColor="@color/black"
+                                android:textIsSelectable="true"
+                                android:textSize="14sp" />
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="50dp"
+                            android:layout_gravity="bottom|center_horizontal"
+                            android:background="@color/colorPrimary"
+                            android:gravity="center">
+
+                            <ImageView
+                                android:layout_width="30dp"
+                                android:layout_height="30dp"
+                                android:layout_margin="8dp"
+                                android:layout_weight="1"
+                                android:background="?attr/selectableItemBackgroundBorderless"
+                                android:clickable="true"
+                                android:focusable="true"
+                                android:src="@drawable/facbook_white"
+                                app:tint="#fff" />
+
+                            <ImageView
+                                android:layout_width="30dp"
+                                android:layout_height="50dp"
+                                android:layout_margin="8dp"
+                                android:layout_weight="1"
+                                android:background="?attr/selectableItemBackgroundBorderless"
+                                android:clickable="true"
+                                android:focusable="true"
+                                android:src="@drawable/linkedin_white"
+                                app:tint="#fff" />
+
+                            <ImageView
+                                android:layout_width="30dp"
+                                android:layout_height="50dp"
+                                android:layout_margin="8dp"
+                                android:layout_weight="1"
+                                android:background="?attr/selectableItemBackgroundBorderless"
+                                android:clickable="true"
+                                android:focusable="true"
+                                android:src="@drawable/instagram_white"
+                                app:tint="#fff" />
+                        </LinearLayout>
+                    </androidx.cardview.widget.CardView>
+
+                    <androidx.cardview.widget.CardView
+                        android:id="@+id/aboutUsCardFive"
+                        android:layout_width="250dp"
+                        android:layout_height="match_parent"
+                        android:layout_marginStart="15dp"
+                        android:layout_marginEnd="16dp"
+                        android:visibility="invisible"
+                        android:layout_marginBottom="16dp"
+                        android:backgroundTint="@color/colorAccent"
+                        app:cardCornerRadius="25dp"
+                        app:cardElevation="5dp">
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginBottom="16dp"
+                            android:orientation="vertical"
+                            android:padding="16dp">
+
+                            <de.hdodenhof.circleimageview.CircleImageView
+                                android:layout_width="120dp"
+                                android:layout_height="120dp"
+                                android:layout_gravity="center_horizontal"
+                                android:layout_marginBottom="16dp"
+                                android:scaleType="centerCrop"
+                                android:src="@drawable/kholoud" />
+
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="center_horizontal"
+                                android:layout_marginBottom="16dp"
+                                android:ellipsize="marquee"
+                                android:gravity="center"
+                                android:maxLines="2"
+                                android:paddingStart="10dp"
+                                android:paddingEnd="10dp"
+                                android:text="Kholoud Mohsen"
+                                android:textColor="@color/black"
+                                android:textIsSelectable="true"
+                                android:textSize="20sp"
+                                android:textStyle="bold" />
+
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="center_horizontal"
+                                android:layout_marginBottom="16dp"
+                                android:fontFamily="sans-serif-medium"
+                                android:gravity="center"
+                                android:maxLines="2"
+                                android:paddingStart="10dp"
+                                android:paddingEnd="10dp"
+                                android:text="AI Engineer"
+                                android:textColor="@color/colorPrimary"
+                                android:textIsSelectable="true"
+                                android:textSize="16sp"
+                                android:textStyle="bold" />
+
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_marginBottom="50dp"
+                                android:fontFamily="sans-serif"
+                                android:justificationMode="inter_word"
+                                android:lineSpacingExtra="4dp"
+                                android:text="I focused on the presentation and API development. I also contributed to the documentation and core model."
+                                android:textColor="@color/black"
+                                android:textIsSelectable="true"
+                                android:textSize="14sp" />
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="50dp"
+                            android:layout_gravity="bottom|center_horizontal"
+                            android:background="@color/colorPrimary"
+                            android:gravity="center">
+
+                            <ImageView
+                                android:layout_width="30dp"
+                                android:layout_height="30dp"
+                                android:layout_margin="8dp"
+                                android:layout_weight="1"
+                                android:background="?attr/selectableItemBackgroundBorderless"
+                                android:clickable="true"
+                                android:focusable="true"
+                                android:src="@drawable/facbook_white"
+                                app:tint="#fff" />
+
+                            <ImageView
+                                android:layout_width="30dp"
+                                android:layout_height="50dp"
+                                android:layout_margin="8dp"
+                                android:layout_weight="1"
+                                android:background="?attr/selectableItemBackgroundBorderless"
+                                android:clickable="true"
+                                android:focusable="true"
+                                android:src="@drawable/linkedin_white"
+                                app:tint="#fff" />
+
+                            <ImageView
+                                android:layout_width="30dp"
+                                android:layout_height="50dp"
+                                android:layout_margin="8dp"
+                                android:layout_weight="1"
+                                android:background="?attr/selectableItemBackgroundBorderless"
+                                android:clickable="true"
+                                android:focusable="true"
+                                android:src="@drawable/instagram_white"
+                                app:tint="#fff" />
+                        </LinearLayout>
+                    </androidx.cardview.widget.CardView>
+
+                    <androidx.cardview.widget.CardView
+                        android:id="@+id/aboutUsCardSeven"
+                        android:layout_width="250dp"
+                        android:layout_height="match_parent"
+                        android:layout_marginStart="15dp"
+                        android:layout_marginEnd="16dp"
+                        android:visibility="invisible"
+                        android:layout_marginBottom="16dp"
+                        android:backgroundTint="@color/colorAccent"
+                        app:cardCornerRadius="25dp"
+                        app:cardElevation="5dp">
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginBottom="16dp"
+                            android:orientation="vertical"
+                            android:padding="16dp">
+
+                            <de.hdodenhof.circleimageview.CircleImageView
+                                android:layout_width="120dp"
+                                android:layout_height="120dp"
+                                android:layout_gravity="center_horizontal"
+                                android:layout_marginBottom="16dp"
+                                android:scaleType="centerCrop"
+                                android:src="@drawable/farah" />
+
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="center_horizontal"
+                                android:layout_marginBottom="16dp"
+                                android:ellipsize="marquee"
+                                android:gravity="center"
+                                android:maxLines="2"
+                                android:paddingStart="10dp"
+                                android:paddingEnd="10dp"
+                                android:text="Farah Mohammed"
+                                android:textColor="@color/black"
+                                android:textIsSelectable="true"
+                                android:textSize="20sp"
+                                android:textStyle="bold" />
+
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="center_horizontal"
+                                android:layout_marginBottom="16dp"
+                                android:fontFamily="sans-serif-medium"
+                                android:gravity="center"
+                                android:maxLines="2"
+                                android:paddingStart="10dp"
+                                android:paddingEnd="10dp"
+                                android:text="AI Engineer"
+                                android:textColor="@color/colorPrimary"
+                                android:textIsSelectable="true"
+                                android:textSize="16sp"
+                                android:textStyle="bold" />
+
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_marginBottom="50dp"
+                                android:fontFamily="sans-serif"
+                                android:justificationMode="inter_word"
+                                android:lineSpacingExtra="4dp"
+                                android:text="I contributed in a fertilizer recommendation model, writing the full technical documentation."
+                                android:textColor="@color/black"
+                                android:textIsSelectable="true"
+                                android:textSize="14sp" />
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="50dp"
+                            android:layout_gravity="bottom|center_horizontal"
+                            android:background="@color/colorPrimary"
+                            android:gravity="center">
+
+                            <ImageView
+                                android:layout_width="30dp"
+                                android:layout_height="30dp"
+                                android:layout_margin="8dp"
+                                android:layout_weight="1"
+                                android:background="?attr/selectableItemBackgroundBorderless"
+                                android:clickable="true"
+                                android:focusable="true"
+                                android:src="@drawable/facbook_white"
+                                app:tint="#fff" />
+
+                            <ImageView
+                                android:layout_width="30dp"
+                                android:layout_height="50dp"
+                                android:layout_margin="8dp"
+                                android:layout_weight="1"
+                                android:background="?attr/selectableItemBackgroundBorderless"
+                                android:clickable="true"
+                                android:focusable="true"
+                                android:src="@drawable/linkedin_white"
+                                app:tint="#fff" />
+
+                            <ImageView
+                                android:layout_width="30dp"
+                                android:layout_height="50dp"
+                                android:layout_margin="8dp"
+                                android:layout_weight="1"
+                                android:background="?attr/selectableItemBackgroundBorderless"
+                                android:clickable="true"
+                                android:focusable="true"
+                                android:src="@drawable/instagram_white"
+                                app:tint="#fff" />
+                        </LinearLayout>
+                    </androidx.cardview.widget.CardView>
+                </LinearLayout>
+            </HorizontalScrollView>
+        </LinearLayout>
+    </ScrollView>
+</androidx.constraintlayout.widget.ConstraintLayout>

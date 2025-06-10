@@ -1,0 +1,104 @@
+<resources>
+    <string name="app_name" translatable="false">Planty Care</string>
+    <string name="logo_image">Logo Image</string>
+    <string name="plant_heaven">Plant Heaven</string>
+    <string name="tree_image">Tree Image</string>
+    <string name="for_a_better_tomorrow_plant_more_trees_today">For a better tomorrow plant more trees today</string>
+    <string name="skip">Skip</string>
+    <string name="next">Next</string>
+    <string name="create_an_account">Create an account</string>
+    <string name="login">Login</string>
+    <string name="login_link">Login</string>
+    <string name="planty_care_app">Planty Care App</string>
+    <string name="plant_image">Plant Image</string>
+    <string name="welcome_to">WELCOME TO</string>
+    <string name="make_earth_healthy">Make Earth Healthy</string>
+    <string name="incorrect_email_or_password_try_again">Incorrect email or password, Try again.</string>
+    <string name="please_login">Please Login</string>
+    <string name="hi">Hi,</string>
+    <string name="email">Email</string>
+    <string name="password">Password</string>
+    <string name="emailHelperText">ex: bishoooezzat@gmail.com</string>
+    <string name="error_email_empty">Email cannot be empty</string>
+    <string name="error_invalid_email">Invalid email address</string>
+    <string name="remember_me">Remember me</string>
+    <string name="forgot_password"><u>Forgot Password?</u></string>
+    <string name="or">OR</string>
+    <string name="gmail">gmail</string>
+    <string name="facebook">facebook</string>
+    <string name="dont_have_account_sign_up">Don\'t have an account? <u>Sign up</u></string>
+    <string name="sign_up">Sign Up</string>
+    <string name="sign_up_link">Sign up</string>
+    <string name="first_name">First Name</string>
+    <string name="last_name">Last Name</string>
+    <string name="confirm_password">Confirm Password</string>
+    <string name="create">Create</string>
+    <string name="account">Account</string>
+    <string name="i_agree_to_the_privacy_policy">I agree to the <u>privacy policy</u></string>
+    <string name="forget_password">Forget Password?</string>
+    <string name="please_enter_your_email_to_reset_the_password">Please enter your email to reset the password</string>
+    <string name="continue_">Continue</string>
+    <string name="reset_successfully">Reset Successfully</string>
+    <string name="congratulations">Congratulations!</string>
+    <string name="success">Success</string>
+    <string name="done">Done</string>
+    <string name="set_a_new_password">Set a new password</string>
+    <string name="ensure_it_differs_from_previous_ones_nfor_security">Ensure it differs from previous ones for security</string>
+    <string name="new_password">New Password</string>
+    <string name="update_my_password">Update My Password</string>
+    <string name="password_reset">Password Reset</string>
+    <string name="verification_complete">Verification Complete</string>
+    <string name="email_verified_successfully_proceed_to_reset_your_password">Email verified successfully.\nProceed to Home Page.</string>
+    <string name="please_connect_to_the_internet_and_try_again">Please connect to the internet and try again.</string>
+    <string name="internet_connection">It seems there is something wrong with your internet connection.</string>
+    <string name="try_again">Try Again</string>
+    <string name="contact_us">Contact Us</string>
+    <string name="full_name">Full Name</string>
+    <string name="message">Message</string>
+    <string name="check_your_email">Check your email</string>
+    <string name="verify_code">Verify Code</string>
+    <string name="change_password">Change Password</string>
+    <string name="current_password">Current Password</string>
+    <string name="save">Save</string>
+    <string name="cancel">Cancel</string>
+    <string name="haven_t_got_the_email_yet_resend_email">Didn\'t receive the email? <u>Resend email</u></string>
+    <string name="check_mail_disc">An account activation link has been sent to:\n xxx. \nPlease check your inbox or spam folder and click the link to activate your account.</string>
+    <string name="ooops">Ooops!</string>
+    <string name="have_an_account_login">Have an account? <u>Login</u></string>
+    <string name="send_meassage">Send Meassage</string>
+    <string name="profile_picture">Profile Picture</string>
+    <string name="privacy_policy">Privacy Policy</string>
+    <string name="privacy_policy_link">privacy policy</string>
+    <string name="about_us">About Us</string>
+    <string name="faqs">FAQs</string>
+    <string name="our_vision">Our vision is to revolutionize agriculture by leveraging Artificial Intelligence to detect plant diseases in fruits and vegetables, ensuring healthier crops and higher yields. We aim to develop an AI-powered solution that accurately identifies and diagnoses plant diseases. We utilize advanced machine learning techniques to assist farmers in early disease detection, reduce crop losses, and promote sustainable agricultural practices.</string>
+    <string-array name="crop_type">
+        <item>Sugarcane</item>
+        <item>Jowar</item>
+        <item>Cotton</item>
+        <item>Rice</item>
+        <item>Wheat</item>
+        <item>Groundnut</item>
+        <item>Maize</item>
+        <item>Tur</item>
+        <item>Urad</item>
+        <item>Moong</item>
+        <item>Gram</item>
+        <item>Masoor</item>
+        <item>Soybean</item>
+        <item>Ginger</item>
+        <item>Turmeric</item>
+        <item>Grapes</item>
+    </string-array>
+
+    <string-array name="soil_color">
+        <item>Black</item>
+        <item>Red</item>
+        <item>Medium Brown</item>
+        <item>Dark Brown</item>
+        <item>Light Brown</item>
+        <item>Reddish Brown</item>
+    </string-array>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>

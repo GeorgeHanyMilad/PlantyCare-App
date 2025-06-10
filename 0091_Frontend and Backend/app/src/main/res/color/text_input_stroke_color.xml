@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <!-- اللون عند التركيز (Focus) -->
+    <item android:color="@color/colorPrimary" android:state_focused="true" />
+    <!-- اللون الافتراضي -->
+    <item android:color="@color/gray" />
+</selector>

@@ -1,0 +1,674 @@
+{
+  "jan": {
+    "plants_to_sow": [
+      {
+        "image_name": "cucumber",
+        "plant_name": "Cucumber",
+        "description": "A long, green-skinned vegetable with a crisp texture, commonly eaten raw in salads or pickled."
+      },
+      {
+        "image_name": "eggplant",
+        "plant_name": "Eggplant",
+        "description": "A glossy, purple-skinned vegetable with a spongy texture, often used in cooking, grilling, or frying."
+      },
+      {
+        "image_name": "pepper",
+        "plant_name": "Pepper",
+        "description": "A colorful vegetable that can be sweet or hot, widely used in salads, cooking, and seasoning."
+      },
+      {
+        "image_name": "tomatoes",
+        "plant_name": "Tomatoes",
+        "description": "Juicy, red fruits commonly used as vegetables in salads, sauces, and cooking for their rich flavor."
+      },
+      {
+        "image_name": "watermelon",
+        "plant_name": "Watermelon",
+        "description": "A large, sweet fruit with a green rind and red, juicy flesh, typically eaten fresh in summer."
+      }
+    ],
+    "plants_to_harvest": [
+      {
+        "image_name": "berseem",
+        "plant_name": "Berseem",
+        "description": "A fast-growing, high-yielding green fodder crop commonly used to feed livestock in Egypt."
+      },
+      {
+        "image_name": "broad_beans",
+        "plant_name": "Broad Beans",
+        "description": "Large, flat legumes rich in protein and fiber, often eaten fresh or cooked in traditional dishes."
+      },
+      {
+        "image_name": "citrus",
+        "plant_name": "Citrus",
+        "description": "A group of tangy fruits like oranges and lemons, rich in vitamin C and widely consumed fresh or juiced."
+      },
+      {
+        "image_name": "onions",
+        "plant_name": "Onions",
+        "description": "A bulb vegetable with a sharp flavor that softens and sweetens when cooked, used in diverse cuisines."
+      },
+      {
+        "image_name": "wheat",
+        "plant_name": "Wheat",
+        "description": "A cereal grain used to produce flour for bread, pasta, and other staple foods around the world."
+      }
+    ]
+  },
+  "feb": {
+    "plants_to_sow": [
+      {
+        "image_name": "beets",
+        "plant_name": "Beets",
+        "description": "A root vegetable with a deep red color, known for its sweet, earthy flavor and nutritional value."
+      },
+      {
+        "image_name": "bell_pepper",
+        "plant_name": "Bell Pepper",
+        "description": "A sweet, crunchy vegetable that comes in various colors, commonly used in salads and cooking."
+      },
+      {
+        "image_name": "cucumber",
+        "plant_name": "Cucumber",
+        "description": "A long, green-skinned vegetable with a crisp texture, commonly eaten raw in salads or pickled."
+      },
+      {
+        "image_name": "garlic",
+        "plant_name": "Garlic",
+        "description": "A pungent bulb used as a spice or seasoning, valued for its strong flavor and health benefits."
+      },
+      {
+        "image_name": "onions",
+        "plant_name": "Onions",
+        "description": "A staple bulb vegetable with a sharp taste and aroma, widely used in cooking around the world."
+      }
+    ],
+    "plants_to_harvest": [
+      {
+        "image_name": "berseem",
+        "plant_name": "Berseem",
+        "description": "A fast-growing, high-yielding green fodder crop commonly used to feed livestock in Egypt."
+      },
+      {
+        "image_name": "broad_beans",
+        "plant_name": "Broad Beans",
+        "description": "Large, flat legumes rich in protein and fiber, often eaten fresh or cooked in traditional dishes."
+      },
+      {
+        "image_name": "cucumbers",
+        "plant_name": "Cucumbers",
+        "description": "Crisp, green vegetables with high water content, commonly eaten raw in salads or pickled."
+      },
+      {
+        "image_name": "sugar_beets",
+        "plant_name": "Sugar Beets",
+        "description": "A root crop grown for sugar production, with white flesh rich in sucrose."
+      },
+      {
+        "image_name": "tangerines",
+        "plant_name": "Tangerines",
+        "description": "Small, sweet citrus fruits with easy-to-peel skin, popular as a fresh snack in winter."
+      }
+    ]
+  },
+  "mar": {
+    "plants_to_sow": [
+      {
+        "image_name": "beans",
+        "plant_name": "Beans",
+        "description": "A versatile legume rich in protein, often grown for its pods or seeds and used in various dishes."
+      },
+      {
+        "image_name": "cucumber",
+        "plant_name": "Cucumber",
+        "description": "A long, green-skinned vegetable with a crisp texture, commonly eaten raw in salads or pickled."
+      },
+      {
+        "image_name": "pepper",
+        "plant_name": "Pepper",
+        "description": "A colorful vegetable that can be sweet or spicy, widely used in cooking and seasoning."
+      },
+      {
+        "image_name": "tomatoes",
+        "plant_name": "Tomatoes",
+        "description": "Juicy, red fruits commonly used as vegetables in salads, sauces, and cooking for their rich flavor."
+      },
+      {
+        "image_name": "watercress",
+        "plant_name": "Watercress",
+        "description": "A leafy green with a peppery taste, often used in salads and known for its high nutritional value."
+      }
+    ],
+    "plants_to_harvest": [
+      {
+        "image_name": "barley",
+        "plant_name": "Barley",
+        "description": "A cereal grain used in food, animal feed, and brewing, valued for its resilience and health benefits."
+      },
+      {
+        "image_name": "berseem",
+        "plant_name": "Berseem",
+        "description": "A fast-growing, nutritious fodder crop widely cultivated in Egypt to feed livestock during winter."
+      },
+      {
+        "image_name": "lemons",
+        "plant_name": "Lemons",
+        "description": "Tart, yellow citrus fruits rich in vitamin C, commonly used for juice, seasoning, and cleaning."
+      },
+      {
+        "image_name": "lentils",
+        "plant_name": "Lentils",
+        "description": "Small, lens-shaped legumes high in protein and fiber, often used in soups and vegetarian dishes."
+      },
+      {
+        "image_name": "potatoes",
+        "plant_name": "Potatoes",
+        "description": "A starchy tuber widely used in cooking, from fried and baked to mashed and boiled preparations."
+      }
+    ]
+  },
+  "apr": {
+    "plants_to_sow": [
+      {
+        "image_name": "cucumber",
+        "plant_name": "Cucumber",
+        "description": "A long, green-skinned vegetable with a crisp texture, commonly eaten raw in salads or pickled."
+      },
+      {
+        "image_name": "eggplant",
+        "plant_name": "Eggplant",
+        "description": "A glossy, purple-skinned vegetable with a spongy texture, often used in cooking, grilling, or frying."
+      },
+      {
+        "image_name": "pepper",
+        "plant_name": "Pepper",
+        "description": "A colorful vegetable that can be sweet or spicy, widely used in cooking and seasoning."
+      },
+      {
+        "image_name": "tomatoes",
+        "plant_name": "Tomatoes",
+        "description": "Juicy, red fruits commonly used as vegetables in salads, sauces, and cooking for their rich flavor."
+      },
+      {
+        "image_name": "watercress",
+        "plant_name": "Watercress",
+        "description": "A leafy green with a peppery taste, often used in salads and known for its high nutritional value."
+      }
+    ],
+    "plants_to_harvest": [
+      {
+        "image_name": "berseem",
+        "plant_name": "Berseem",
+        "description": "A fast-growing, nutritious fodder crop widely cultivated in Egypt to feed livestock during winter."
+      },
+      {
+        "image_name": "chickpeas",
+        "plant_name": "Chickpeas",
+        "description": "Round, beige legumes high in protein and fiber, commonly used in dishes like hummus and stews."
+      },
+      {
+        "image_name": "onions",
+        "plant_name": "Onions",
+        "description": "A bulb vegetable with a sharp flavor that softens and sweetens when cooked, used in diverse cuisines."
+      },
+      {
+        "image_name": "pomegranates",
+        "plant_name": "Pomegranates",
+        "description": "Juicy red fruits with sweet-tart seeds, rich in antioxidants and popular in fresh or juiced form."
+      },
+      {
+        "image_name": "wheat",
+        "plant_name": "Wheat",
+        "description": "A staple cereal crop used to produce flour for bread, pasta, and other essential food products."
+      }
+    ]
+  },
+  "may": {
+    "plants_to_sow": [
+      {
+        "image_name": "eggplant",
+        "plant_name": "Eggplant",
+        "description": "A glossy, purple-skinned vegetable with a spongy texture, often used in cooking, grilling, or frying."
+      },
+      {
+        "image_name": "green_beans",
+        "plant_name": "Green Beans",
+        "description": "Tender, unripe beans eaten whole, commonly steamed, sautéed, or used in casseroles."
+      },
+      {
+        "image_name": "molokhia",
+        "plant_name": "Molokhia",
+        "description": "A leafy green vegetable popular in Middle Eastern cuisine, often cooked into a nutritious soup."
+      },
+      {
+        "image_name": "pepper",
+        "plant_name": "Pepper",
+        "description": "A colorful vegetable that can be sweet or spicy, widely used in cooking and seasoning."
+      },
+      {
+        "image_name": "tomatoes",
+        "plant_name": "Tomatoes",
+        "description": "Juicy, red fruits commonly used as vegetables in salads, sauces, and cooking for their rich flavor."
+      }
+    ],
+    "plants_to_harvest": [
+      {
+        "image_name": "cotton",
+        "plant_name": "Cotton",
+        "description": "A fiber crop used in textile production, valued for its soft, fluffy lint spun into thread or fabric."
+      },
+      {
+        "image_name": "maize",
+        "plant_name": "Maize",
+        "description": "Also known as corn, a versatile grain crop used for food, animal feed, and industrial products."
+      },
+      {
+        "image_name": "melon",
+        "plant_name": "Melon",
+        "description": "A sweet, juicy fruit with a refreshing taste, commonly eaten fresh in summer."
+      },
+      {
+        "image_name": "sorghum",
+        "plant_name": "Sorghum",
+        "description": "A drought-tolerant grain used for food, fodder, and biofuel, especially in arid regions."
+      },
+      {
+        "image_name": "tomatoes",
+        "plant_name": "Tomatoes",
+        "description": "Juicy red fruits used as vegetables in salads, sauces, and countless cooked dishes."
+      }
+    ]
+  },
+  "jun": {
+    "plants_to_sow": [
+      {
+        "image_name": "cabbage",
+        "plant_name": "Cabbage",
+        "description": "A leafy green or purple vegetable with tightly packed leaves, commonly used in salads, soups, and stir-fries."
+      },
+      {
+        "image_name": "okra",
+        "plant_name": "Okra",
+        "description": "A green, pod-shaped vegetable known for its mucilaginous texture, often used in stews and soups."
+      },
+      {
+        "image_name": "potatoes",
+        "plant_name": "Potatoes",
+        "description": "A starchy tuber widely used around the world in countless savory dishes, from fries to mashed potatoes."
+      },
+      {
+        "image_name": "watermelon",
+        "plant_name": "Watermelon",
+        "description": "A large, juicy fruit with a green rind and red flesh, enjoyed fresh for its sweet and refreshing taste."
+      },
+      {
+        "image_name": "zucchini",
+        "plant_name": "Zucchini",
+        "description": "A soft, green summer squash with mild flavor, commonly sautéed, grilled, or used in baking."
+      }
+    ],
+    "plants_to_harvest": [
+      {
+        "image_name": "cotton",
+        "plant_name": "Cotton",
+        "description": "A fiber crop used in textile production, valued for its soft, fluffy lint spun into thread or fabric."
+      },
+      {
+        "image_name": "eggplants",
+        "plant_name": "Eggplants",
+        "description": "Glossy purple vegetables with a spongy texture, often used in grilling, baking, and stews."
+      },
+      {
+        "image_name": "grapes",
+        "plant_name": "Grapes",
+        "description": "Small, juicy fruits grown in clusters, eaten fresh or used for making juice, wine, and raisins."
+      },
+      {
+        "image_name": "rice",
+        "plant_name": "Rice",
+        "description": "A staple grain crop grown in flooded fields, essential to diets worldwide and cooked in various forms."
+      },
+      {
+        "image_name": "sugarcane",
+        "plant_name": "Sugarcane",
+        "description": "A tall tropical grass cultivated for its sweet juice, processed to produce sugar and molasses."
+      }
+    ]
+  },
+  "jul": {
+    "plants_to_sow": [
+      {
+        "image_name": "beans",
+        "plant_name": "Beans",
+        "description": "A versatile legume rich in protein, often grown for its pods or seeds and used in various dishes."
+      },
+      {
+        "image_name": "cucumber",
+        "plant_name": "Cucumber",
+        "description": "A long, green-skinned vegetable with a crisp texture, commonly eaten raw in salads or pickled."
+      },
+      {
+        "image_name": "eggplant",
+        "plant_name": "Eggplant",
+        "description": "A glossy, purple-skinned vegetable with a spongy texture, often used in cooking, grilling, or frying."
+      },
+      {
+        "image_name": "pepper",
+        "plant_name": "Pepper",
+        "description": "A colorful vegetable that can be sweet or spicy, widely used in cooking and seasoning."
+      },
+      {
+        "image_name": "watercress",
+        "plant_name": "Watercress",
+        "description": "A leafy green with a peppery taste, often used in salads and known for its high nutritional value."
+      }
+    ],
+    "plants_to_harvest": [
+      {
+        "image_name": "cotton",
+        "plant_name": "Cotton",
+        "description": "A fiber crop used in textile production, valued for its soft, fluffy lint spun into thread or fabric."
+      },
+      {
+        "image_name": "maize",
+        "plant_name": "Maize",
+        "description": "Also known as corn, a versatile grain crop used for food, animal feed, and industrial products."
+      },
+      {
+        "image_name": "mangoes",
+        "plant_name": "Mangoes",
+        "description": "Sweet, tropical fruits with juicy flesh, often called the (king of fruits) for their rich flavor."
+      },
+      {
+        "image_name": "peppers",
+        "plant_name": "Peppers",
+        "description": "Colorful, crunchy vegetables ranging from sweet to hot, used in salads, cooking, and seasoning."
+      },
+      {
+        "image_name": "sugarcane",
+        "plant_name": "Sugarcane",
+        "description": "A tall tropical grass cultivated for its sweet juice, processed to produce sugar and molasses."
+      }
+    ]
+  },
+  "aug": {
+    "plants_to_sow": [
+      {
+        "image_name": "cucumber",
+        "plant_name": "Cucumber",
+        "description": "A long, green-skinned vegetable with a crisp texture, commonly eaten raw in salads or pickled."
+      },
+      {
+        "image_name": "garlic",
+        "plant_name": "Garlic",
+        "description": "A pungent bulb used for its strong flavor and health benefits, commonly added to savory dishes."
+      },
+      {
+        "image_name": "potato",
+        "plant_name": "Potato",
+        "description": "A starchy tuber widely used around the world in countless savory dishes, from fries to mashed potatoes."
+      },
+      {
+        "image_name": "tomatoes",
+        "plant_name": "Tomatoes",
+        "description": "Juicy, red fruits commonly used as vegetables in salads, sauces, and cooking for their rich flavor."
+      },
+      {
+        "image_name": "zucchini",
+        "plant_name": "Zucchini",
+        "description": "A soft, green summer squash with mild flavor, commonly sautéed, grilled, or used in baking."
+      }
+    ],
+    "plants_to_harvest": [
+      {
+        "image_name": "dates",
+        "plant_name": "Dates",
+        "description": "Sweet, chewy fruits from date palm trees, commonly eaten fresh or dried, rich in fiber and energy."
+      },
+      {
+        "image_name": "okra",
+        "plant_name": "Okra",
+        "description": "A green pod vegetable known for its slimy texture when cooked, used in soups, stews, and frying."
+      },
+      {
+        "image_name": "rice",
+        "plant_name": "Rice",
+        "description": "A staple grain crop grown in flooded fields, essential to diets worldwide and cooked in various forms."
+      },
+      {
+        "image_name": "sorghum",
+        "plant_name": "sorghum",
+        "description": "A drought-tolerant cereal grain used for food, animal feed, and syrup, popular in arid climates."
+      },
+      {
+        "image_name": "sugarcane",
+        "plant_name": "Sugarcane",
+        "description": "A tall tropical grass cultivated for its sweet juice, processed to produce sugar and molasses."
+      }
+    ]
+  },
+  "sep": {
+    "plants_to_sow": [
+      {
+        "image_name": "lettuce",
+        "plant_name": "Lettuce",
+        "description": "A leafy green vegetable with a mild flavor, commonly used fresh in salads and sandwiches."
+      },
+      {
+        "image_name": "onions",
+        "plant_name": "Onions",
+        "description": "A bulb vegetable with a sharp flavor that becomes sweet when cooked, widely used in many cuisines."
+      },
+      {
+        "image_name": "radish",
+        "plant_name": "Radish",
+        "description": "A crunchy root vegetable with a peppery taste, often eaten raw in salads or as a garnish."
+      },
+      {
+        "image_name": "spinach",
+        "plant_name": "Spinach",
+        "description": "A nutrient-rich leafy green with a slightly bitter taste, often used in salads, cooking, or smoothies."
+      },
+      {
+        "image_name": "strawberry",
+        "plant_name": "Strawberry",
+        "description": "A sweet, red fruit with a juicy texture and pleasant aroma, commonly eaten fresh or used in desserts."
+      }
+    ],
+    "plants_to_harvest": [
+      {
+        "image_name": "figs",
+        "plant_name": "Figs",
+        "description": "Soft, sweet fruits with a unique texture and many seeds, often eaten fresh or dried."
+      },
+      {
+        "image_name": "peanuts",
+        "plant_name": "Peanuts",
+        "description": "Legumes grown underground, used for snacks, oil, and butter, rich in protein and healthy fats."
+      },
+      {
+        "image_name": "rice",
+        "plant_name": "Rice",
+        "description": "A staple grain crop grown in flooded fields, essential to diets worldwide and cooked in various forms."
+      },
+      {
+        "image_name": "sugarcane",
+        "plant_name": "Sugarcane",
+        "description": "A tall tropical grass cultivated for its sweet juice, processed to produce sugar and molasses."
+      },
+      {
+        "image_name": "tomatoes",
+        "plant_name": "Tomatoes",
+        "description": "Juicy red fruits commonly used as vegetables in salads, sauces, and countless savory dishes."
+      }
+    ]
+  },
+  "oct": {
+    "plants_to_sow": [
+      {
+        "image_name": "garlic",
+        "plant_name": "Garlic",
+        "description": "A pungent bulb used for its strong flavor and health benefits, commonly added to savory dishes."
+      },
+      {
+        "image_name": "lettuce",
+        "plant_name": "Lettuce",
+        "description": "A leafy green vegetable with a mild flavor, commonly used fresh in salads and sandwiches."
+      },
+      {
+        "image_name": "onion",
+        "plant_name": "Onion",
+        "description": "A bulb vegetable with a sharp flavor that becomes sweet when cooked, widely used in many cuisines."
+      },
+      {
+        "image_name": "spinach",
+        "plant_name": "Spinach",
+        "description": "A nutrient-rich leafy green with a slightly bitter taste, often used in salads, cooking, or smoothies."
+      },
+      {
+        "image_name": "strawberry",
+        "plant_name": "Strawberry",
+        "description": "A sweet, red fruit with a juicy texture and pleasant aroma, commonly eaten fresh or used in desserts."
+      }
+    ],
+    "plants_to_harvest": [
+      {
+        "image_name": "dates",
+        "plant_name": "Dates",
+        "description": "Sweet, chewy fruits from date palm trees, commonly eaten fresh or dried, rich in fiber and energy."
+      },
+      {
+        "image_name": "maize",
+        "plant_name": "Maize",
+        "description": "Also known as corn, a versatile grain crop used for food, animal feed, and industrial products."
+      },
+      {
+        "image_name": "potatoes",
+        "plant_name": "Potatoes",
+        "description": "Starchy tuber vegetables widely used in cooking, known for their versatility and nutritional value."
+      },
+      {
+        "image_name": "soybeans",
+        "plant_name": "Soybeans",
+        "description": "Protein-rich legumes used in food products, animal feed, and oil extraction."
+      },
+      {
+        "image_name": "sugarcane",
+        "plant_name": "Sugarcane",
+        "description": "A tall tropical grass cultivated for its sweet juice, processed to produce sugar and molasses."
+      }
+    ]
+  },
+  "nov": {
+    "plants_to_sow": [
+      {
+        "image_name": "carrots",
+        "plant_name": "Carrots",
+        "description": "Crunchy root vegetables, typically orange, known for their sweet flavor and high vitamin A content."
+      },
+      {
+        "image_name": "lettuce",
+        "plant_name": "Lettuce",
+        "description": "A leafy green vegetable with a mild flavor, commonly used fresh in salads and sandwiches."
+      },
+      {
+        "image_name": "pumpkin",
+        "plant_name": "Pumpkin",
+        "description": "A large orange fruit used in cooking and baking, rich in fiber and vitamins."
+      },
+      {
+        "image_name": "radish",
+        "plant_name": "Radish",
+        "description": "A crunchy root vegetable with a peppery taste, often eaten raw in salads or as a garnish."
+      },
+      {
+        "image_name": "watercress",
+        "plant_name": "Watercress",
+        "description": "A leafy green with a peppery taste, often used in salads and known for its high nutritional value."
+      }
+    ],
+    "plants_to_harvest": [
+      {
+        "image_name": "barley",
+        "plant_name": "Barley",
+        "description": "A cereal grain used for animal feed, brewing, and as a food ingredient rich in fiber."
+      },
+      {
+        "image_name": "berseem",
+        "plant_name": "Berseem",
+        "description": "A fast-growing legume fodder crop used primarily as animal feed, especially for dairy cattle."
+      },
+      {
+        "image_name": "cucumbers",
+        "plant_name": "Cucumbers",
+        "description": "Crisp, refreshing vegetables commonly eaten raw in salads or pickled."
+      },
+      {
+        "image_name": "olives",
+        "plant_name": "Olives",
+        "description": "Small fruits harvested for oil extraction and table consumption, rich in healthy fats."
+      },
+      {
+        "image_name": "oranges",
+        "plant_name": "Oranges",
+        "description": "Juicy citrus fruits known for their sweet-tart flavor and high vitamin C content."
+      }
+    ]
+  },
+  "dec": {
+    "plants_to_sow": [
+      {
+        "image_name": "beans",
+        "plant_name": "Beans",
+        "description": "A versatile legume rich in protein, often grown for its pods or seeds and used in various dishes."
+      },
+      {
+        "image_name": "peas",
+        "plant_name": "Peas",
+        "description": "Small, round green legumes often eaten fresh or dried, used in soups, stews, and salads."
+      },
+      {
+        "image_name": "potato",
+        "plant_name": "Potato",
+        "description": "A starchy tuber widely used around the world in countless savory dishes, from fries to mashed potatoes."
+      },
+      {
+        "image_name": "tomatoes",
+        "plant_name": "Tomatoes",
+        "description": "Juicy, red fruits commonly used as vegetables in salads, sauces, and cooking for their rich flavor."
+      },
+      {
+        "image_name": "watermelon",
+        "plant_name": "Watermelon",
+        "description": "A large, juicy fruit with a green rind and sweet red flesh, enjoyed fresh as a refreshing treat."
+      }
+    ],
+    "plants_to_harvest": [
+      {
+        "image_name": "berseem",
+        "plant_name": "Berseem",
+        "description": "A fast-growing legume used as nutritious fodder for livestock, especially in winter."
+      },
+      {
+        "image_name": "onions",
+        "plant_name": "Onions",
+        "description": "Bulb vegetables with a pungent flavor, widely used as a base ingredient in cooking worldwide."
+      },
+      {
+        "image_name": "sugar_beets",
+        "plant_name": "Sugar Beets",
+        "description": "Root vegetables cultivated for sugar extraction, an important source of table sugar."
+      },
+      {
+        "image_name": "tangerines",
+        "plant_name": "Tangerines",
+        "description": "Small citrus fruits similar to mandarins, sweet and easy to peel, rich in vitamin C."
+      },
+      {
+        "image_name": "wheat",
+        "plant_name": "Wheat",
+        "description": "A staple cereal grain used globally to produce flour for bread, pasta, and other foods."
+      }
+    ]
+  }
+}

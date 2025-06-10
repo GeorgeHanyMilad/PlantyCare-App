@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="colorPrimary">#2E8B57</color>
+    <color name="colorAccent">#E8EBEF</color>
+    <color name="buttonStrokeColor">#A4A1A1</color>
+    <color name="darkGreen">#134137</color>
+    <color name="red">#FF0000</color>
+    <color name="gray">#777777</color>
+    <color name="password_week">#FFEB3B</color>
+    <color name="password_medium">#FF9800</color>
+    <color name="password_strong">#F21A1A</color>
+    <color name="background">#FFFFFF</color>
+    <color name="textPrimary">#000000</color>
+    <color name="my_link_color_dark_theme">#2164D5</color>
+    <color name="black_for_shadow">#55000000</color>
+</resources>

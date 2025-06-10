@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FFFFFFFF</color> <!-- غالباً هيستخدم كـ Text على خلفية غامقة -->
+    <color name="white">#FF000000</color> <!-- العكس للدارك -->
+    <color name="colorPrimary">#34BF72</color> <!-- أخضر فاتح يبان على خلفية غامقة -->
+    <color name="colorAccent">#4D4C4C</color> <!-- رمادي غامق للخلفيات -->
+    <color name="buttonStrokeColor">#CCCCCC</color> <!-- رمادي فاتح يظهر على الغامق -->
+    <color name="darkGreen">#B2DFDB</color> <!-- أخضر باهت للتماشي مع الـ Dark -->
+    <color name="red">#FF8A80</color> <!-- أحمر أخف في الـ dark mode -->
+    <color name="gray">#CCCCCC</color> <!-- رمادي أفتح للوضوح -->
+    <color name="password_week">#FFF176</color> <!-- يفضل تخفيف السطوع شوية -->
+    <color name="password_medium">#FFB74D</color>
+    <color name="password_strong">#EF5350</color>
+    <color name="background">#262626</color>
+    <color name="textPrimary">#FFFFFF</color>
+    <color name="my_link_color_dark_theme">#81D4FA</color>
+    <color name="black_for_shadow">#55FFFFFF</color>
+</resources>

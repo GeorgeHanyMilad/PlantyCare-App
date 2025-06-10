@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="graduation.plantcare">
+
+    <uses-feature
+        android:name="android.hardware.camera"
+        android:required="false" />
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-permission
+        android:name="android.permission.READ_EXTERNAL_STORAGE"
+        android:maxSdkVersion="32" />
+    <uses-permission
+        android:name="android.permission.WRITE_EXTERNAL_STORAGE"
+        android:maxSdkVersion="32"
+        tools:ignore="ScopedStorage" />
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/planty_care"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/planty_care"
+        android:theme="@style/Theme.graduation.plantcare"
+        android:usesCleartextTraffic="true"
+        tools:ignore="WrongManifestParent"
+        tools:targetApi="31">
+        <activity
+            android:name=".ui.auth.DeleteAccount"
+            android:exported="false" />
+        <activity
+            android:name=".features.model_three.ModelThree"
+            android:exported="false"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.graduation.plantcare"
+            android:windowSoftInputMode="adjustResize" />
+        <activity
+            android:name=".features.model_two.ModelTwo"
+            android:exported="false"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.graduation.plantcare"
+            android:windowSoftInputMode="adjustResize" />
+
+        <provider
+            android:name="androidx.core.content.FileProvider"
+            android:authorities="graduation.plantcare.provider"
+            android:exported="false"
+            android:grantUriPermissions="true">
+            <meta-data
+                android:name="android.support.FILE_PROVIDER_PATHS"
+                android:resource="@xml/file_paths" />
+        </provider>
+
+        <activity
+            android:name=".features.model_one.ModelOne"
+            android:exported="true"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.graduation.plantcare" />
+        <activity
+            android:name=".ui.profile.EditProfile"
+            android:exported="false"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.graduation.plantcare"
+            android:windowSoftInputMode="adjustResize" />
+        <activity
+            android:name=".ui.home.RateUs"
+            android:exported="false"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.graduation.plantcare" />
+        <activity
+            android:name=".ui.home.ShareApp"
+            android:exported="false"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.graduation.plantcare" />
+        <activity
+            android:name=".ui.home.Settings"
+            android:exported="false"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.graduation.plantcare" />
+        <activity
+            android:name=".ui.splash.SkipScreen3"
+            android:exported="false"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.graduation.plantcare" />
+        <activity
+            android:name=".ui.splash.SkipScreen4"
+            android:exported="false"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.graduation.plantcare" />
+        <activity
+            android:name=".ui.home.HomePage"
+            android:exported="false"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.graduation.plantcare" />
+        <activity
+            android:name=".ui.home.FAQs"
+            android:exported="false"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.graduation.plantcare" />
+        <activity
+            android:name=".ui.profile.AboutUs"
+            android:exported="false"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.graduation.plantcare" />
+        <activity
+            android:name=".ui.profile.PrivacyPolicy"
+            android:exported="false"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.graduation.plantcare" />
+        <activity
+            android:name=".ui.auth.CheckYourEmail"
+            android:exported="false"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.graduation.plantcare" />
+        <activity
+            android:name=".ui.profile.ContactUs"
+            android:exported="false"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.graduation.plantcare"
+            android:windowSoftInputMode="adjustResize" />
+        <activity
+            android:name=".utils.NoInternetConnection"
+            android:exported="false"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.graduation.plantcare" />
+        <activity
+            android:name=".ui.auth.ForgetPassword"
+            android:exported="false"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.graduation.plantcare"
+            android:windowSoftInputMode="adjustResize" />
+        <activity
+            android:name=".ui.auth.SignUp"
+            android:exported="false"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.graduation.plantcare"
+            android:windowSoftInputMode="adjustResize" />
+        <activity
+            android:name=".ui.auth.Login"
+            android:exported="false"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.graduation.plantcare"
+            android:windowSoftInputMode="adjustResize" />
+        <activity
+            android:name=".ui.splash.WelcomeScreen"
+            android:exported="false"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.graduation.plantcare" />
+        <activity
+            android:name=".ui.splash.SkipScreen1"
+            android:exported="false"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.graduation.plantcare" />
+        <activity
+            android:name=".ui.splash.SkipScreen2"
+            android:exported="false"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.graduation.plantcare" />
+        <activity
+            android:name=".ui.splash.SplashScreen"
+            android:exported="true"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.graduation.plantcare">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

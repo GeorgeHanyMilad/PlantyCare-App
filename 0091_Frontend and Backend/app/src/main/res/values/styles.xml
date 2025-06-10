@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="RoundedButtonStyle" parent="Widget.AppCompat.Button">
+        <item name="android:background">@drawable/rounded_button</item>
+        <item name="android:backgroundTint">@null</item>
+        <item name="android:textAllCaps">false</item>
+    </style>
+
+    <style name="RoundedButtonStyle2" parent="Widget.AppCompat.Button">
+        <item name="android:background">@drawable/rounded_button_green</item>
+        <item name="android:backgroundTint">@null</item>
+        <item name="android:textAllCaps">false</item>
+    </style>
+
+    <style name="ErrorTextStyle" parent="TextAppearance.MaterialComponents.Caption">
+        <item name="android:textColor">@color/red</item>
+        <item name="android:textSize">12sp</item>
+        <item name="android:lineSpacingExtra">10dp</item> <!-- يضيف مسافة إضافية -->
+    </style>
+
+    <style name="CircularImageView" parent="">
+        <item name="cornerFamily">rounded</item>
+        <item name="cornerSize">50%</item>
+    </style>
+
+    <style name="BaseTextStyle">
+        <item name="android:textSize">14sp</item>
+        <item name="android:textColor">@color/black</item>
+        <item name="android:ellipsize">marquee</item>
+    </style>
+
+    <style name="TitleText" parent="BaseTextStyle">
+        <item name="android:textSize">22sp</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="OutlinedTextInput">
+        <item name="boxBackgroundMode">outline</item>
+        <item name="boxCornerRadiusTopStart">16dp</item>
+        <item name="boxCornerRadiusTopEnd">16dp</item>
+        <item name="boxCornerRadiusBottomStart">16dp</item>
+        <item name="boxCornerRadiusBottomEnd">16dp</item>
+        <item name="boxStrokeColor">@color/text_input_stroke_color</item>
+    </style>
+
+    <style name="PrimaryButton">
+        <item name="android:backgroundTint">@color/colorPrimary</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:textSize">16sp</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+    <style name="RatingBarStyle" parent="Theme.AppCompat.Light">
+        <item name="colorControlNormal">#2e7d32</item>
+        <item name="colorControlActivated">#2e7d32</item>
+    </style>
+
+    <style name="RoundedRectImageViewShape" parent="ShapeAppearance.MaterialComponents.SmallComponent">
+        <item name="cornerFamily">rounded</item>
+        <item name="cornerSize">16dp</item>
+        <item name="strokeWidth">2dp</item>
+        <item name="strokeColor">@color/colorPrimary</item>
+    </style>
+
+    <style name="CustomAlertDialog" parent="ThemeOverlay.AppCompat.Dialog.Alert">
+        <item name="android:background">@color/background</item>
+        <item name="android:textColorPrimary">@color/black</item>
+    </style>
+
+</resources>
