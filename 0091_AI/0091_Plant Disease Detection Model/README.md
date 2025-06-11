@@ -6,15 +6,14 @@ This AI model is designed to **detect and classify plant diseases** from leaf im
 
 ## 🔗 Resources
 
-- 📘 **Model Code (Google Colab)**: [Plant_Disease_Detection_Model.ipynb](https://colab.research.google.com/drive/16L57k01-A2Yb9BXptLWVVADyJTEPFxsO)
-- 🗂️ **Dataset**: [Link Dataset](https://data.mendeley.com/datasets/tywbtsjrjv/1)
+- 📘 **Model Code (Google Colab)**: [Plant_Disease_Detection_Model.ipynb](https://colab.research.google.com/drive/16L57k01-A2Yb9BXptLWVVADyJTEPFxsO) <img src="https://media.giphy.com/media/mBYkXvLxkHZFmqBHIC/giphy.gif" width="50" height="40"/>
+- 🗂️ **Dataset**: [Link Dataset](https://data.mendeley.com/datasets/tywbtsjrjv/1) <img src="https://media.giphy.com/media/mBYkXvLxkHZFmqBHIC/giphy.gif" width="50" height="40"/>
 ---
 
 ## 📁 Project Folder
 
 You can access the **entire project**, including the code and datasets, from the following Google Drive folder:
-- 🔗 [Code - Colab Notebook](https://colab.research.google.com/drive/16L57k01-A2Yb9BXptLWVVADyJTEPFxsO)
-- 🔗 [Complete Project Folder](https://drive.google.com/drive/folders/1yqDGr3uoXPS3XCkEYjq34Bqc-Vkra7V9?usp=drive_link)
+- 🔗 [Complete Project Folder](https://drive.google.com/drive/folders/1yqDGr3uoXPS3XCkEYjq34Bqc-Vkra7V9?usp=drive_link) <img src="https://media.giphy.com/media/mBYkXvLxkHZFmqBHIC/giphy.gif" width="50" height="40"/>
 
 ---
 

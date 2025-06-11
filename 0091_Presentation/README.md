@@ -2,7 +2,7 @@
 
 This is the official presentation for the graduation project **PlantyCare App**, which showcases the objectives, system architecture, AI models, UI/UX design, and final outcomes.
 
-🎥 **View the Presentation**: [PlantyCare Project Presentation](https://www.canva.com/design/DAGp8T4X8nE/C4VIfUW29tNf2Nqe_vMv1Q/edit?utm_content=DAGp8T4X8nE&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton)
+🎥 **View the Presentation**: [PlantyCare Project Presentation](https://www.canva.com/design/DAGp8T4X8nE/C4VIfUW29tNf2Nqe_vMv1Q/edit?utm_content=DAGp8T4X8nE&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton) <img src="https://media.giphy.com/media/mBYkXvLxkHZFmqBHIC/giphy.gif" width="50" height="40"/>
 
 ---
 

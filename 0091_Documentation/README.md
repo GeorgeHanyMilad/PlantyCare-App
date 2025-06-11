@@ -2,7 +2,7 @@
 
 This is the official documentation for the graduation project **PlantyCare App**, containing the full technical and functional specifications, system design, datasets, AI model descriptions, implementation details, and testing results.
 
-📘 **View the Full Documentation**: [PlantyCare Project Documentation](https://drive.google.com/drive/folders/1FHPE_9VI7hZ_B_8XOlbUjLWzD3NKuPaX?usp=sharing)
+📘 **View the Full Documentation**: [PlantyCare Project Documentation](https://drive.google.com/drive/folders/1FHPE_9VI7hZ_B_8XOlbUjLWzD3NKuPaX?usp=sharing) <img src="https://media.giphy.com/media/mBYkXvLxkHZFmqBHIC/giphy.gif" width="50" height="40"/>
 
 ---
 
@@ -29,4 +29,3 @@ This is the official documentation for the graduation project **PlantyCare App**
 ---
 
 > 🏫 Developed as a graduation project by 7 AI students at the Faculty of Artificial Intelligence, EELU – supervised by **Dr. Mahmoud Basiony** and **Eng. Toka Ashraf**.
-

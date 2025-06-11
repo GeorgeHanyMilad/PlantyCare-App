@@ -6,7 +6,7 @@ This demo showcases the core features and user experience of the **PlantyCare Mo
 
 ## 🎬 Watch the Demo
 
-- ▶️ **Video Link**: [Link](https://drive.google.com/drive/folders/1KiaueGAim7CtmnEnoTLayrbHGxRvnkzK)
+- ▶️ **Video Link**: [Link](https://drive.google.com/drive/folders/1KiaueGAim7CtmnEnoTLayrbHGxRvnkzK) <img src="https://media.giphy.com/media/mBYkXvLxkHZFmqBHIC/giphy.gif" width="50" height="40"/>
 ---
 
 ## 💡 About the App
