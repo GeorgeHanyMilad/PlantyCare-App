@@ -12,7 +12,7 @@
 ## 📄 Project Information
 
 - **Project Title**:  
-  **AI-BASED SOLUTION FOR ADDRESSING PLANT DISEASES IN EGYPT'S FRUIT AND VEGETABLE CROPS**
+  **AI-Based Solution for Addressing Plant Diseases in Egypt's Fruit and Vegetable Crops**
 
 - **Team Number**: { 0091 }
 
