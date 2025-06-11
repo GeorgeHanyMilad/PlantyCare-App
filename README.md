@@ -14,6 +14,8 @@
 - **Project Title**:  
   **AI-BASED SOLUTION FOR ADDRESSING PLANT DISEASES IN EGYPT'S FRUIT AND VEGETABLE CROPS**
 
+- **Team Number**: { 0091 }
+
 - **Faculty**:  
   Faculty of Computers and Information – Fayoum Center - EELU
 
