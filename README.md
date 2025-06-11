@@ -7,6 +7,36 @@
 
 # 🌿 PlantyCare App
 
+---
+
+## 📄 Project Information
+
+- **Project Title**:  
+  **AI-BASED SOLUTION FOR ADDRESSING PLANT DISEASES IN EGYPT'S FRUIT AND VEGETABLE CROPS**
+
+- **Faculty**:  
+  Faculty of Computers and Information – Fayoum Center - EELU
+
+- **Supervised by**:  
+  - 👨‍🏫 Dr. Mahmoud Basiony *(Supervisor)*  
+  - 👩‍💻 Eng. Toka Ashraf *(Assistant Supervisor)*
+
+---
+
+## 👥 Team Members
+
+| Name               | Role         | University ID |
+|--------------------|--------------|---------------|
+| Kholoud Mohsen     | Team Leader  | 21-00882      |
+| Farah Mohamed      | Member       | 21-00686      |
+| Bishoy Ezzat       | Member       | 21-00584      |
+| George Hany        | Member       | 21-00724      |
+| Hager Abdelqader   | Member       | 21-02131      |
+| Mariam Hany        | Member       | 21-01011      |
+| Eslam Ayman        | Member       | 21-01854      |
+
+---
+
 🎓 **Graduation Project**  
 📍 Project Title: **AI-Based Solution for Addressing Plant Diseases in Egypt's Fruit and Vegetable Crops**
 
