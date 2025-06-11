@@ -18,7 +18,7 @@
   Faculty of Computers and Information – Fayoum Center - EELU
 
 - **Supervised by**:  
-  - 👨‍🏫 Dr. Mahmoud Basiony *(Supervisor)*  
+  - 👨‍🏫 Dr. Mahmoud Bassiouni *(Supervisor)*  
   - 👩‍💻 Eng. Toka Ashraf *(Assistant Supervisor)*
 
 ---
